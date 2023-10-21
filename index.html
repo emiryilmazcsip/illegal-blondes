@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div class="container"></div>
+        <div id ="slide">
+            <div class="item" style="background-image: url(bc.png);">
+                <div class="content">
+                    <div class="name">Septum's Together.</div>
+                    <div class="des">Emir and Francesca both always wanted septums. They together got them put in. March 4th, 2023. </div>
+                    <button>See more</button>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(bc2.png);">
+                <div class="content">
+                    <div class="name">Graduation.</div>
+                    <div class="des">In this photo depicted, Emir carries Francesca back to BHS after her High School Graduation. June 22nd, 2023. </div>
+                    <button>See more</button>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(bc3.png);">
+                <div class="content">
+                    <div class="name">Francesca's 18th.</div>
+                    <div class="des">It is her birthday. They went to go eat at a nice place near Edgewater. She is older. February 4th, 2023.</div>
+                    <button>See more</button>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(bc4.png);">
+                <div class="content">
+                    <div class="name">Homecoming.</div>
+                    <div class="des">Emir and Francesca go to homecoming together. She looked beautiful. October 15th, 2022.</div>
+                    <button>See more</button>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(bc5.png);">
+                <div class="content">
+                    <div class="name">Rooftop in Ridgewood.</div>
+                    <div class="des">A usual spot that these two would visit. A kiss shared at the peak of height. June 29th, 2023.</div>
+                    <button>See more</button>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(bc6.png);">
+                <div class="content">
+                    <div class="name">Classic House Party.</div>
+                    <div class="des">A photo taken when not many knew about them. Secretive at a house party. It is bound to get evil. October 8th, 2022.</div>
+                    <button>See more</button>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(bc7.png);">
+                <div class="content">
+                     <div class="name">First New York Trip.</div>
+                     <div class="des">This was one of Emir's favorite trips. They together find comfort in each other. December 10th, 2022.</div>
+                     <button>See more</button>
+                </div>
+            </div>
+        <div class="buttons">
+            <button id="prev"><i class="fa-solid fa-backward"></i></button>
+            <button id="next"><i class="fa-solid fa-forward"></i></button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.5.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.5.0/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyDbQ6m4ZpGUNqgSZuS24K05wqO-1PchcBM",
+      authDomain: "illegal-blondes.firebaseapp.com",
+      projectId: "illegal-blondes",
+      storageBucket: "illegal-blondes.appspot.com",
+      messagingSenderId: "821957309697",
+      appId: "1:821957309697:web:b9b4dede58f1d2315b9700",
+      measurementId: "G-9M3CM3TQYB"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
+  </script>
